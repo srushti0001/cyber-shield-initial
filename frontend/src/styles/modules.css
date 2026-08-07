@@ -1,0 +1,40 @@
+.modules-page{
+
+    min-height:100vh;
+
+    background:#030712;
+
+    color:white;
+
+    padding:60px 8%;
+}
+
+.modules-header{
+
+    text-align:center;
+
+    margin-bottom:60px;
+}
+
+.modules-header h1{
+
+    font-size:52px;
+
+    margin-bottom:15px;
+}
+
+.modules-header p{
+
+    color:#CBD5E1;
+
+    font-size:20px;
+}
+
+.modules-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:35px;
+}

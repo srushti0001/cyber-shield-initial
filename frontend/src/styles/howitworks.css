@@ -1,0 +1,39 @@
+.how-section{
+    width:90%;
+    margin:100px auto;
+}
+
+.how-section h2{
+    text-align:center;
+    margin-bottom:50px;
+    font-size:42px;
+}
+
+.steps{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.step{
+    background:#111827;
+    border-radius:20px;
+    padding:35px;
+    text-align:center;
+    transition:.3s;
+}
+
+.step:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px rgba(37,99,235,.3);
+}
+
+.step h3{
+    margin-top:20px;
+    color:white;
+}
+
+.step p{
+    color:#CBD5E1;
+    margin-top:15px;
+}
